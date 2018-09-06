@@ -1,0 +1,9 @@
+opium: OSCARified User Synchronisation System
+
+The OSCAR User Synchronization System keeps the users
+and groups synchronized from the the central OSCAR server out to the
+OSCAR compute nodes. OPIUM is compatible with the Pluggable Authentification
+Modules (PAM) mechanism (NIS, NIS+, LDAP, ...). The users and groups on 
+the OSCAR server are checked and synchronized (if necessary) periodically 
+(configurable).  The opium package now uses the sync_files package to do all 
+synchronization.
