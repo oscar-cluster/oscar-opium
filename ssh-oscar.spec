@@ -17,7 +17,7 @@ Source: ssh-oscar.tar.gz
 
 License: GPL
 Group: System
-Requires: rpm >= 3.0.5, oscar-base-lib
+Requires: rpm >= 3.0.5, liboscar-server >= 6.3
 Conflicts: sync-users-oscar
 #==============================================================
 
